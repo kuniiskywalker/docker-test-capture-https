@@ -1,0 +1,8 @@
+version: '3'
+services:
+  https:
+    build: .
+    ports:
+      - '443:443'
+    volumes:
+      - ./data:/data
